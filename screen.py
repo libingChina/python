@@ -15,5 +15,6 @@ while True:
     else:
         udp.sendto(''.encode(), ('192.168.199.255', 8889))
         break
+print('OK')
 udp.close()
 print(time.time()-a)
